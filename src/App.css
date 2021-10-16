@@ -63,23 +63,34 @@ ul.ant-pagination {
 }
 .comparisonTable thead.ant-table-thead th {
   padding: 4px 15px;
-  font-size: 14px;
+  font-size: 18px;
   border-right: 1px solid #cad6e2;
   border-left: none;
   border-top: 1px solid #cad6e2;
   border-bottom: none;
   height: 50px;
-}
-.comparisonTable .ant-table-thead > tr > th {
   color: #1a3866;
   font-weight: bold;
 }
+
 
 .comparisonTable .ant-table-tbody > tr > td {
   border-top: 1px solid #cad6e2;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.75);
 }
+
+.remove_button.ant-btn, .remove_button.ant-btn:active, .remove_button.ant-btn:hover, .remove_button.ant-btn:focus {
+  background-color: #7a9caf;
+  color: #fff;
+  border-color: #628497;
+  border-radius: 5px;
+}
+
+.align_center{
+  text-align: center;
+}
+
 /************* Responsive ***********/
 @media(max-width: 1366px){
   .container{
