@@ -73,7 +73,7 @@ export default class HomeComponent extends React.Component {
 
   render() {
     const { items_list, currentPage, minIndex, maxIndex, compareListData } = this.state;
-    var tableData =  compareListData.sort((a, b) => a.id - b.id);
+    var tableData = compareListData.sort((a, b) => a.id - b.id);
 
     const compareColumns = [
       {
